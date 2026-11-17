@@ -1,0 +1,15 @@
+[server]
+# 회의록 .txt 파일 업로드 최대 크기(MB)
+maxUploadSize = 2
+
+[browser]
+gatherUsageStats = false
+
+# 기본(라이트) 테마. 다크 모드는 앱 안의 전환 버튼이 ui/styles.py의 CSS로 덮어쓴다.
+# base를 고정해 두어야 OS 설정과 상관없이 전환 버튼이 일관되게 동작한다.
+[theme]
+base = "light"
+primaryColor = "#E8508C"
+backgroundColor = "#FFF8FB"
+secondaryBackgroundColor = "#FFF0F6"
+textColor = "#4A3B47"
